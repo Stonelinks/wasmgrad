@@ -1,0 +1,14 @@
+{
+  "name": "wasmgrad",
+  "version": "1.0.0",
+  "description": "See README",
+  "repository": "git@github.com:Stonelinks/wasmgrad.git",
+  "author": "Lucas Doyle",
+  "license": "MIT",
+  "dependencies": {
+  },
+  "engines": {
+    "node": "18.8.0",
+    "yarn": "1.22.19"
+  }
+}
