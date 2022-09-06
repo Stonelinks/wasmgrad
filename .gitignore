@@ -1,2 +1,5 @@
 opt
 node_modules
+
+3rdparty/*
+!3rdparty/CMakeLists.txt

@@ -2,7 +2,7 @@
 set -ex
 
 sudo apt-get update -y
-sudo apt-get install -y --no-install-recommends jq
+sudo apt-get install -y --no-install-recommends jq cmake python3
 
 direnv allow
 
@@ -27,3 +27,9 @@ if [ ! -f opt/node$YARN_VERSION/bin/yarn ]; then
 fi
 
 yarn
+
+update-3rdparty-deps
+
+emsdk update
+emsdk install latest
+emsdk activate latest
